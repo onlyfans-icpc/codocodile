@@ -1,0 +1,36 @@
+# Ignore compiled files and executables
+*.out
+*.exe
+*.o
+*.obj
+
+# Ignore all C++ specific build files
+*.gch
+*.so
+*.a
+*.dylib
+*.dll
+
+# Ignore core dumps
+core
+
+# Ignore temporary files
+*.tmp
+*.temp
+*~
+
+# Ignore log files
+*.log
+
+# Ignore IDE-specific directories
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore any other binary files
+*.bin
